@@ -1,0 +1,140 @@
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa73"),
+  "productId" : "10001",
+  "productName" : "小米6",
+  "productPrice" : 2499.00,
+  "productImg" : "mi6.jpg"
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa74"),
+  "productId" : "10002",
+  "productName" : "小米笔记本",
+  "productImg" : "note.jpg",
+  "productPrice" : 3999.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa75"),
+  "productId" : "10003",
+  "productName" : "小米平衡车",
+  "productImg" : "pingheng.jpg",
+  "productPrice" : 4999.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa76"),
+  "productId" : "10004",
+  "productName" : "小米自拍神器",
+  "productImg" : "zipai.jpg",
+  "productPrice" : 39.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa77"),
+  "productId" : "10005",
+  "productName" : "小米摄像头",
+  "productImg" : "photo.jpg",
+  "productPrice" : 389.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa78"),
+  "productId" : "10006",
+  "productName" : "小米蓝牙音箱",
+  "productImg" : "1.jpg",
+  "productPrice" : 129.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa79"),
+  "productId" : "10007",
+  "productName" : "小米蓝牙耳机",
+  "productImg" : "2.jpg",
+  "productPrice" : 80.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa7a"),
+  "productId" : "10008",
+  "productName" : "小米ear700",
+  "productImg" : "3.jpg",
+  "productPrice" : 700.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa7b"),
+  "productId" : "10009",
+  "productName" : "小米充电宝",
+  "productImg" : "5.jpg",
+  "productPrice" : 89.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa7c"),
+  "productId" : "10011",
+  "productName" : "小米入耳式耳机",
+  "productImg" : "7.jpg",
+  "productPrice" : 120.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa7d"),
+  "productId" : "10012",
+  "productName" : "小米电视",
+  "productImg" : "10.jpg",
+  "productPrice" : 4389.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa7e"),
+  "productId" : "10013",
+  "productName" : "小米商品9",
+  "productImg" : "9.jpg",
+  "productPrice" : 1389.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa7f"),
+  "productId" : "10014",
+  "productName" : "小米耳机12",
+  "productImg" : "12.jpg",
+  "productPrice" : 689.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa80"),
+  "productId" : "10015",
+  "productName" : "小米商品13",
+  "productImg" : "13.jpg",
+  "productPrice" : 20.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa81"),
+  "productId" : "10016",
+  "productName" : "小米商品14",
+  "productImg" : "14.jpg",
+  "productPrice" : 888.00
+}
+{
+  "_id" : ObjectId("5a267cd9f525bc2d7012aa82"),
+  "productId" : "10017",
+  "productName" : "小米商品15",
+  "productImg" : "15.jpg",
+  "productPrice" : 1200.00
+}
+{
+
+  "productId" : "10001",
+  "productName" : "小米6",
+  "productPrice" : 1366.00,
+  "productImg" : "mi6.jpg"
+}
+{
+
+  "productId" : "10002",
+  "productName" : "小米笔记本",
+  "productImg" : "note.jpg",
+  "productPrice" : 3200.00
+}
+{
+
+  "productId" : "10003",
+  "productName" : "小米平衡车",
+  "productImg" : "pingheng.jpg",
+  "productPrice" : 1590.00
+}
+{
+
+  "productId" : "10004",
+  "productName" : "小米自拍神器",
+  "productImg" : "zipai.jpg",
+  "productPrice" : 88.00
+}

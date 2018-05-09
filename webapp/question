@@ -1,0 +1,29 @@
+2018.01.30
+1、获取购物车列表没有商品价格和图片，原以为是写的时候没有更新这2个字段，就想着再去商品表取出价格和图片，通过便利添加到购物车列表。(已解决)
+    原来是model定义字段时商品表和用户表所用的字段不同，通过统一可搞定。
+
+2、Q1取出2个数据库数据进行便利重组不成功，添加不了字段。（已解决）
+    由于数据库取出的数据如要操作，目前找到3个方法：
+    1）let goods = await Goods.find({productId: {'$in':productArr}}).lean().exec()；
+      求助cnode大神后，在exec()前加上lean()；（原理尚未研究）
+    2）添加_doc; 如cartlist._doc.productId
+    3）对取出的数据进行toObject() ； 如test = test.toObject()
+
+3、对数据库数据自定义id进行自增；（未解决）
+
+4、await查询数据库后回调中无法ctx.body返回数据给前端；（不明确）
+  await 返回的是promise对象
+
+5、定义了 let total; 但是在后面赋值后并不能成功调用；（已解决）
+  定义时需 let total = '' 进行赋值  https://www.cnblogs.com/wangfupeng1988/p/3977924.html
+
+6、购物车列表功能对用户已有的商品id进行查询；（已解决）
+  let goods = await Goods.find({productId: {'$in':productArr}}).lean().exec()；
+  productArr为已有商品id数组
+
+7、mongodb默认的_id,实际是id
+
+8、修改地址时，isDefault问题（未解决）->(半解决2018.2.1)
+  秋生的建议是update要修改的id，然后再去update不是当前id的将isDefault改为false，但是不成功。
+  选择是判断如果当前id的isDefault为TRUE，重新去查询所有地址并便利，将非当前id的改为false。然后再去update当前数据
+
